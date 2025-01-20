@@ -20,11 +20,11 @@ jobs:
 
     - name: Install server dependencies
       run: npm install
-      working-directory: ./server
+      working-directory: ./Server
 
     - name: Install client dependencies
       run: npm install
-      working-directory: ./client
+      working-directory: ./Client
 
     - name: Run application
       env:
@@ -34,4 +34,4 @@ jobs:
         DATABASE_PASS: ${{ secrets.DATABASE_PASS }}
         JWT_SECRET: ${{ secrets.JWT_SECRET }}
       run: npm start
-      working-directory: ./server
+      working-directory: ./Server
