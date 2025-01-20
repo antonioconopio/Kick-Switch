@@ -29,3 +29,4 @@ jobs:
           DATABASE_PASS: ${{ secrets.DATABASE_PASS }}
           JWT_SECRET: ${{ secrets.JWT_SECRET }}
         run: npm start
+        working-directory: ./server
