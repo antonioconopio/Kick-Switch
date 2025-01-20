@@ -72,10 +72,6 @@ Kickswitch is built using the following technologies:
    cd ../Server && npm start
    ```
 
-## 📌 Contributions
-
-Contributions are welcome! Feel free to fork the repository, make improvements, and submit a pull request.
-
 ## 🔗 Links
 
 - [Project Demo](#) (Coming Soon)
